@@ -1,0 +1,41 @@
+body{
+    background-color: brown;
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    width: 25%;
+    margin: 10% auto;
+}
+.white-keys kbd{
+    display: inline-block;
+    border: 2px solid dimgrey;
+    background-color: white;
+    width: 40px;
+    height: 150px;
+    text-align: center;
+    line-height: 14em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-left: -4px;
+    position: static;
+}
+
+.black-keys kbd{
+    position: relative;
+    top: 100px;
+    left: 13px;
+    margin-left: 14px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    width: 27px;
+    height: 100px;
+    text-align: center;
+    line-height: 12em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+.r{
+    margin-right: 41px;
+}
